@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="navbar">
+    <h2>CampusConnect</h2>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+  <div class="container">
+    <h2>Dashboard</h2>
+    <h3><i class="fa-solid fa-list"></i> Assignments</h3>
+    
+    <input type="text" id="task" placeholder="Enter assignment">
+    <button onclick="addTask()">
+      <i class="fa-solid fa-plus"></i> Add
+    </button>
+
+    <input type="text" id="task" placeholder="Enter assignment">
+    <button onclick="addTask()">Add</button>
+
+    <ul id="list"></ul>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
